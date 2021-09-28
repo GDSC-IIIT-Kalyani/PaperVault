@@ -16,6 +16,8 @@ To run it on your machine follow the following steps:
 4. Start the development server using the following command:
 
       `npm start`
+      
+5. Those working with the backend may uncomment the mongoose.connect() code and connect the application to their cluster we will add a permanent cluster later.
 
 <h1>Steps for contributing</h1>
 
