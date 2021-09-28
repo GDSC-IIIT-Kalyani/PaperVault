@@ -22,7 +22,7 @@ app.use('/api/login', loginRouter)
 app.use('/api/register', registerRouter);
 app.use('/gymkhana',gymkhanaRouter)
 mongoose.connect(
-    "mongodb+srv://Yashraj:Yashraj1370@cluster0.odtd1.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+    "URL",  // Enter your mongoose client here, we'll add a permanent account later
     { useNewUrlParser: true, useCreateIndex: true }
   );
   
