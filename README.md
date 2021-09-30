@@ -27,4 +27,4 @@ To run it on your machine follow the following steps:
 
 3. If you find some issues you can report them by creating a new issue <a href="https://github.com/GDSC-IIIT-Kalyani/PaperVault/issues">here</a> or you can checkout the already existing issues and work on fixing them.
 
-4. Look out for issues marked with the hactoberfest tag to make your contribution count for the hacktoberfest 2021.
+4. Look out for issues marked with the hacktoberfest tag to make your contribution count for the hacktoberfest 2021.
