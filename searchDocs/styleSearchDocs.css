@@ -56,3 +56,21 @@ input[type="text"] {
 #foundDocs.visible {
     opacity: 1;
 }
+
+.centerButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#submitButton {
+    height: 3em;
+    width: 12em;
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+  }
+  
+  #submitButton:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
