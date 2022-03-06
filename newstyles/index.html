@@ -9,7 +9,36 @@
   </head>
   <body>
     <div id="preloader"></div>
-
+      <!-- Showcase and navbar -->
+      <section class="showcase">
+        <header>
+          <h2 class="logo">PaperVault</h2>
+          <div class="toggle"></div>
+        </header>
+        <video src="resources/showcase.mp4" muted loop autoplay></video>
+        <div class="overlay"></div>
+        <div class="text">
+          <h2>PaperVault</h2> 
+          <h3>All your resources in one place</h3>
+          <a href="#">Get Materials</a>
+        </div>
+        <ul class="social">
+          <li><a href="#"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
+          <li><a href="#"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
+          <li><a href="#"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
+        </ul>
+      </section>
+      <div class="menu">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Resouce section</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Gymkhana</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <!-- Showcase and navbar end -->
+      
 
 
 
@@ -26,8 +55,8 @@
           <iframe width="560" height="315" src="https://www.youtube.com/embed/ULssP63AhPw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           <iframe width="560" height="315" src="https://www.youtube.com/embed/ULssP63AhPw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           <iframe width="560" height="315" src="https://www.youtube.com/embed/ULssP63AhPw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-          <!-- till here remove  -->
+        </div> -->
+          <!-- till here remove 
 
 
     <!-- the script for preloading animation goes here -->
@@ -37,6 +66,16 @@
         loader.style.display="none"
       })
   
+  </script>
+
+  <script>
+     const menuToggle = document.querySelector('.toggle');
+      const showcase = document.querySelector('.showcase');
+
+      menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active');
+        showcase.classList.toggle('active');
+      })
   </script>
 
   </body>
