@@ -1,0 +1,12 @@
+/* preloader gif */
+#preloader{
+  background: #f5f7f6 url(/newstyles/resources/preloader.gif) no-repeat center center ;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+
+.hidden{
+  display: none;
+}
