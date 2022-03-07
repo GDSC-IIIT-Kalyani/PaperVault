@@ -71,15 +71,15 @@ body {
   transform: scale(1.055);
 }
 .honeycomb-cell::after {
-  background: #3ea0eb;
-  opacity: 0.5;
+  background: #393baa;
+  /* opacity: 0.5; */
   transition: opacity 350ms;
 }
 .honeycomb-cell:hover .honeycomb-cell__title {
   opacity: 0;
 }
 .honeycomb-cell:hover::before {
-  background: #72f88e;
+  background: #f38715;
 }
 .honeycomb-cell:hover::after {
   opacity: 0;

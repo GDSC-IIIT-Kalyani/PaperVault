@@ -84,7 +84,7 @@ body {
 }
 
 .card:hover .filledbar {
-  width: 120px;
+  width: 100%;
   transition: 0.4s ease-out;
 }
 
