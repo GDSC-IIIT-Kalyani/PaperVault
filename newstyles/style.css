@@ -136,8 +136,8 @@ header .logo {
   border-radius: 5px;
 }
 .text a:hover {
-  background: #f38715;
-  color: #333;
+  background: #1d1e55;
+  color: #fff;
   /* font-weight: bold; */
   /* letter-spacing: 6px; */
 }
@@ -282,143 +282,6 @@ header .logo {
 /*Semester page grid styles end here*/
 /* grid section ends */
 
-.grid_about {
-  display: grid;
-  /* width: 70vw; */
-  /* margin: 0 auto; */
-  height: 100vh;
-  grid-template-areas:
-    "text-1 text-1 photo-1 photo-1"
-    "About-us About-us-text About-us-text photo-2"
-    "photo-3 photo-3 designed-by designed-by";
-  grid-template-rows: 1fr 2fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-}
-#page-3 img {
-  /* object-fit: contain; */
-  width: 100%;
-  /* image-resolution: ; */
-  /* position: absolute; */
-  /* max-height: 100%; */
-}
-
-/* .text-1, .photo-1{
-  grid-row-start:1 ;
-  grid-row-end:2 ;
-
-}
-.About-us, .About-us-text, .photo-2{
-  grid-row-start:3 ;
-  grid-row-end:5 ;
-
-}
-.photo-3, .designed-by{
-  grid-row-start:6 ;
-  grid-row-end:7 ;
-
-} */
-.text-1 {
-  /* padding-top: ; */
-  grid-area: text-1;
-  font-size: 3rem;
-  padding: 0.5rem 4rem;
-  color: #333;
-  background: #c4c4c4;
-}
-
-.text-1 p {
-  padding: 2rem 3rem;
-}
-.photo-1 {
-  grid-area: photo-1;
-  height: 100%;
-  width: 100%;
-  background-image: url("resources/pexels-abby-chung-1106468 (1).jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.About-us {
-  grid-area: About-us;
-  text-align: center;
-  padding: 0 auto;
-  /* top: 50%; */
-  /* left: 50%; */
-  writing-mode: vertical-lr;
-  transform: rotate(180deg);
-  font-size: 2.5rem;
-  color: #333;
-  background: #ff9c9c;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.About-us-text {
-  grid-area: About-us-text;
-  text-align: center;
-  padding: 0.5rem;
-  background: #fbeeee;
-}
-.About-us-text h2 {
-  font-size: 3rem;
-  margin-top: 3rem;
-  margin-bottom: 2rem;
-}
-
-.About-us-text p {
-  font-size: 2.5rem;
-  padding: 2rem 4rem;
-  margin: 3rem;
-}
-
-.photo-2 {
-  grid-area: photo-2;
-
-  height: 100%;
-  width: 100%;
-  background-image: url("resources/pexels-abby-chung-1106468 (1).jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.photo-3 {
-  /* display: none; */
-  grid-area: photo-3;
-  height: 100%;
-  width: 100%;
-  background-image: url("resources/pexels-abby-chung-1106468 (1).jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.designed-by {
-  grid-area: designed-by;
-  text-align: center;
-  background: #ebbdbd;
-  padding: 1rem 0;
-}
-.designed-by h1 {
-  font-size: 3.5rem;
-  font-weight: bolder;
-  padding: 2rem 0;
-}
-
-.designed-by ul {
-  list-style: none;
-}
-.designed-by ul li {
-  margin-top: 1rem;
-}
-
-.designed-by ul li a {
-  text-decoration: none;
-  color: #333;
-  font-size: 1.5rem;
-  font-weight: bold;
-  /* padding: 1rem 0; */
-}
-
 /* Scroll to top css starts */
 .scroll-to-top {
   position: fixed;
@@ -438,4 +301,8 @@ header .logo {
 
 #page-3 {
   position: absolute;
+}
+
+.hii:hover {
+  color: #03a9f4;
 }
