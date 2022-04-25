@@ -1,30 +1,25 @@
-# PaperVault
-A website that stores previous year question papers and assignments. Also is used for storing data for the gymkhana of IIIT Kalyani.
+# **PaperVault**
 
-To run it on your machine follow the following steps:
+All your semester resources at one place
+<br>
 
-1. Go into the desired work folder
+### 🔭 &nbsp; **About this Project**
 
-2. Open the git bash and write the following command:
+A website to store all our semester resources which will be helpful to our college students while preparing for examinations. We used google drive to store our resources and html, css, &nbsp;jS for building the website.
+<br>
 
-      `git clone https://github.com/GDSC-IIIT-Kalyani/PaperVault.git`
+### 🛠 &nbsp; **Tech Stack**
 
-3. Open a terminal inside the `PaperVault` folder and run the following command to install the dependancies (make sure you dont change the package.lock file):
+![HTML](https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white)&nbsp;
+![CSS](https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white)&nbsp;
+![JAVASCRIPT](https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)&nbsp;
 
-      `npm install`
+<br>
 
-4. Start the development server using the following command:
+### 📫 &nbsp; **Roadmap**
 
-      `npm start`
-      
-5. Those working with the backend may uncomment the mongoose.connect() code and connect the application to their cluster we will add a permanent cluster later.
+- Add more functionality
 
-<h1>Steps for contributing</h1>
+- Add a backend to manage resources directly
 
-1. Follow the above steps to get the code up and running on your device.
-
-2. Look out for changes you think would help in the bettering the experience of the user, improve the code base, add documentation wherever neccessary
-
-3. If you find some issues you can report them by creating a new issue <a href="https://github.com/GDSC-IIIT-Kalyani/PaperVault/issues">here</a> or you can checkout the already existing issues and work on fixing them.
-
-4. Look out for issues marked with the hacktoberfest tag to make your contribution count for the hacktoberfest 2021.
+- UI enhancements.
